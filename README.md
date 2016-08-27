@@ -22,7 +22,8 @@ Das Backend soll in [go](https://golang.org/) und [swagger](https://swagger.io),
 Hier nur eine grob sortierte Auflistung der meisten Ideen:
 
 
-- [ ] Mindestens alles was aktuell schon mit beiden Seiten von Volker möglich ist 
+- [ ] Mindestens alles was aktuell schon mit beiden Seiten von Volker möglich ist
+  - [ ] Funktion der Teilnehmer (Gast, Betreuer, Helfer, WKR, Kielschwein)
 - [ ] Nur via HTTPS erreichbar
 - [ ] Jeder kann einen Zugang beantragen
   - [ ] Rechtemodel ist hierarchisch
@@ -30,6 +31,7 @@ Hier nur eine grob sortierte Auflistung der meisten Ideen:
     - [ ] Benutzer muss anhand der E-Mail von einem Dritten verifiziert werden
   - [ ] Es werden keine Benutzerdaten und Passwörter gespeichert
     - Es soll das [Identity Toolkit von Google](https://developers.google.com/identity/toolkit/) bzw. dessen Nachfolger [Firebase Authentication](https://firebase.google.com/docs/auth/) für die Authentifizierung verwendet werden
+    - [Auth0](https://auth0.com/) ist auch eine Alternative
   - [ ] Wenn zu den Startern eine E-Mail-Adresse hinterlegt wurde, dann werden die Starter beim Antrag automatisch freigeschaltet und können Ihre eigenen Daten sehen und bearbeiten
   - [ ] Der Einstieg auf dieser Plattform muss so einfach wie möglich sein. Jeder neue Verein, der seine Nennung darüber machen möchte, sollte es können
 - [ ] Mobilefirst - Alles muss auch via Handy problemlos möglich sein
@@ -38,6 +40,7 @@ Hier nur eine grob sortierte Auflistung der meisten Ideen:
 - [ ] Ausschreibungen können für verschiedene Vereine/Verbände freigegeben werden
   - [ ] E-Mail-Einladung zur Ausschreibung/Nennung mit E-Mail-Template
   - [ ] Favoriten, Gruppen für Vereinsauswahl?
+  - [ ] Freigabe der Ausschreibung nach Datum (von/bis)
 - [ ] Kontaktliste von und für alle Jugendwarte
   - [ ] Jeder Jugendwart kann seine Daten selbst pflegen und entscheiden, was wie freigegeben wird
 - [ ] Kontaktliste von und für alle Vereine
